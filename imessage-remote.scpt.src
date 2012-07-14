@@ -1,0 +1,15 @@
+tell application "iChat"
+	activate
+	
+	tell application "System Events"
+		tell process "iChat" to click menu item 1 of menu "File" of menu bar 1
+		delay 1
+		keystroke "aaaaa@aeja.com"
+		key down return
+		key down tab
+		delay 1
+		key down tab
+		keystroke "The message!"
+		key down return
+	end tell
+end tell

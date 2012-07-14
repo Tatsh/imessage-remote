@@ -1,0 +1,1 @@
+The idea here is to remotely invoke Messages.app and then send a message to the appropriate contact. This script is nowhere near complete and just a proof of concept. It does work but only if Messages.app is open (not iChat!) and timing is right.
